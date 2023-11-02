@@ -1,0 +1,87 @@
+.navbar{
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    align-items: center;
+}
+
+.name{
+    margin: 0 2rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img{
+    width: 100px;
+}
+
+.name:hover{
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.25s;
+}
+
+.nameHoverContainer{
+    position: absolute;
+    margin-left: 2rem;
+    opacity: 0;
+}
+
+.name:hover ~ .nameHoverContainer{
+    opacity: 1;
+    transition: 0.25s;
+}
+
+.nameHover{
+    opacity: 100;
+    z-index: 100;
+    margin-top: 0.7rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.nav-links{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:0 2rem 0 2rem;
+    margin-right: 2rem;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.nav-links ul li a:hover{
+    color: rgb(0, 204, 255);
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 991px) {
+    html{
+        font-size: 60%;
+    }
+
+    .navbar img{
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar img{
+        width: 60px;
+    }
+}
