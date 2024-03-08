@@ -105,6 +105,7 @@
 /* Footer */
 
 .footer{
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,6 +201,10 @@
 
     .footer-title{
         margin-bottom: 2rem;
+    }
+
+    .viewcode{
+        margin: 2rem;
     }
 
   }

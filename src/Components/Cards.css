@@ -43,15 +43,16 @@
 }
 
 .langs{
+    margin-left: 2rem;
     display: flex;
-    margin: 0 4rem 3rem;
+    flex-wrap: wrap;
 }
 
 .langs li{
     cursor: pointer;
     list-style: none;
     font-size: 1rem;
-    margin-left: 1rem;
+    margin: 1rem;
     padding: 0.5rem 2rem;
     border-radius: 1rem;
     background-color: #0c4288;
@@ -63,7 +64,7 @@
 }
 
 .viewcode{
-    margin: 0 4rem 3rem;
+    margin: 2rem 3rem;
     font-size: 1.8rem;
     width: 15rem;
     height: 3rem;
@@ -94,6 +95,7 @@
         margin: 0;
         display: flex;
         flex-direction: column;
+        margin-top: 5rem;
     }
 
     .card-image{
@@ -109,6 +111,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         padding: 0;
         color: antiquewhite;
@@ -126,17 +129,25 @@
     }
 
     .langs{
-        margin: 0 0 3rem;
+        margin:0 0 2rem;
         padding: 0;
+        display: flex;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .langs li{
+        margin: .5rem;
     }
 
     .viewcode{
         font-size: 1.5rem;
-        width: 10rem;
-        height: 2rem;
+        width: 12rem;
+        height: 3rem;
         border-radius: 2rem;
         font-family: 'Roboto Mono', monospace;
     }
+
 
 }
