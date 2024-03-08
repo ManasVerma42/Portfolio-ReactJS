@@ -14,7 +14,7 @@ export default function Cards(props) {
     return (
         <div className="Cards">
             <div className="card-image">
-                <img src={`img/${props.item.img}`} alt="card-img"/>
+            <a href={props.item.hostlink} target="_blank" rel="noreferrer"><img src={`img/${props.item.img}`} alt="card-img"/></a>
             </div>
             
             <div className="card-info">
@@ -22,7 +22,7 @@ export default function Cards(props) {
                 <div className="card-title"><h2><a href={props.item.hostlink} target="_blank" rel="noreferrer">{props.item.title}</a></h2></div>
                 <div className="card-details">{props.item.details}<p></p></div>
                 <div className="langs">{languages}</div>
-                <button className="viewcode"><a href={props.item.codelink} target="_blank" rel="noreferrer">View Code</a></button>
+                <a className="view" href={props.item.codelink} target="_blank" rel="noreferrer"><button className="viewcode">View Code</button></a>
 
             </div>
         </div>

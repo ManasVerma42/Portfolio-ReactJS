@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Cards from './Components/Cards';
 import Footer from './Components/Footer';
+import ScrollToTopButton from './Components/ScrollToTopButton';
 import data from "./data";
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
       <Hero />
       {cards}
       <Footer />
+      <ScrollToTopButton />
       
     </div>
   );

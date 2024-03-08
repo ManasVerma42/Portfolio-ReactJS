@@ -5,6 +5,7 @@
     overflow: hidden;
     display: flex;
     font-family: 'Poppins', sans-serif;
+    height: 100%;
 }
 
 .card-image{
@@ -57,7 +58,6 @@
 }
 
 .langs li:hover{
-    letter-spacing: 0.2rem;
     transition: 0.25s;
     background-color: #0093a7;
 }
@@ -69,11 +69,23 @@
     height: 3rem;
     border-radius: 2rem;
     font-family: 'Roboto Mono', monospace;
+    color: antiquewhite;
+    background: black;
 }
 
-.viewcode a{
-    text-decoration: none;
-    color: antiquewhite;
+.viewcode:hover{
+    cursor: pointer;
+    color: black;
+    background: antiquewhite;
+    transition: .25s;
+}
+
+.view{
+    font-size: 1.8rem;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-family: 'Roboto Mono', monospace;
 }
 
 
