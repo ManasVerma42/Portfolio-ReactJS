@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ScrollToTopButton.css';
+import image from './up-arrow.png';
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -24,9 +25,9 @@ const ScrollToTopButton = () => {
   return (
     <div>
       {isVisible && (
-        <button className="scroll-to-top-button" onClick={scrollToTop}>
-          Top
-        </button>
+        <div className="scroll-to-top-button" onClick={scrollToTop}>
+          <img src={image} alt='up' />
+        </div>
       )}
     </div>
   );

@@ -5,18 +5,32 @@
     font-size: 2rem;
     bottom: 20px;
     right: 20px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
     padding: .5rem .75rem;
-    background-color: white;
+    background: antiquewhite;
     color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     z-index: 1000;
   }
+
+  .scroll-to-top-button img{
+    height: 2rem;
+    background: transparent;
+  }
   
   @media only screen and (max-width: 768px){
        .scroll-to-top-button{
-            padding: 2rem;
-            font-size: 2rem;
+        height: 3rem;
+
        }
-  }
+
+       .scroll-to-top-button img{
+            height: 2rem;
+       }
+  
+  
+}
