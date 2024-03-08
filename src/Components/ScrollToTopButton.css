@@ -2,6 +2,7 @@
     position: fixed;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    font-size: 2rem;
     bottom: 20px;
     right: 20px;
     padding: .5rem .75rem;
@@ -13,3 +14,8 @@
     z-index: 1000;
   }
   
+  @media only screen and (max-width: 768px){
+       .scroll-to-top-button{
+            font-size: 3rem;
+       }
+  }
