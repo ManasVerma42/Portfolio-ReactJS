@@ -79,5 +79,15 @@ export default [
                 langs:["HTML5","CSS3","JS","ReactJS"],
                 codelink:"https://github.com/ManasVerma42/Portfolio"
             },
+            
+            {
+                id:6,
+                img:"amazon.png",
+                title:"Amazon Clone",
+                details:"A project replicating the major features of Amazon.",
+                hostlink:"https://amazon-clone-ten-alpha-97.vercel.app/",
+                langs:["HTML5","CSS3","JS"],
+                codelink:"https://github.com/ManasVerma42/Amazon-Clone"
+            },
 
         ]
