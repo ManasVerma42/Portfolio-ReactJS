@@ -41,13 +41,23 @@ export default [
             },
 
             {
-                id:3,
-                img:"Furry-Friends.png",
-                title:"Furry Friends",
-                details:"A Website dedicated to adopt animals and raise funds for their well being.",
-                hostlink:"https://manasverma42.github.io/PRNC03_hackathon/",
+                id:6,
+                img:"amazon.png",
+                title:"Amazon Clone",
+                details:"A project replicating the major features of Amazon.",
+                hostlink:"https://amazon-clone-ten-alpha-97.vercel.app/",
                 langs:["HTML5","CSS3","JS"],
-                codelink:"https://github.com/ManasVerma42/PRNC03_hackathon"
+                codelink:"https://github.com/ManasVerma42/Amazon-Clone"
+            },
+
+            {
+                id:5,
+                img:"airbnb.png",
+                title:"AirBnb Clone",
+                details:"A Basic clone of AirBnb website.",
+                hostlink:"https://airbnb-clone-taupe-theta.vercel.app/",
+                langs:["HTML5","CSS3","JS","ReactJS"],
+                codelink:"https://github.com/ManasVerma42/Airbnb-Clone"
             },
 
             {
@@ -61,13 +71,13 @@ export default [
             },
 
             {
-                id:4,
-                img:"Blood-Donation.png",
-                title:"Blood Donation Website",
-                details:"A website to help those who want to donate their blood and save lives.",
-                hostlink:"https://manasverma42.github.io/Blood-Donation-Drive-Website/",
-                langs: ["HTML5", "CSS3"],
-                codelink:"https://github.com/ManasVerma42/Blood-Donation-Drive-Website"
+                id:3,
+                img:"Furry-Friends.png",
+                title:"Furry Friends",
+                details:"A Website dedicated to adopt animals and raise funds for their well being.",
+                hostlink:"https://manasverma42.github.io/PRNC03_hackathon/",
+                langs:["HTML5","CSS3","JS"],
+                codelink:"https://github.com/ManasVerma42/PRNC03_hackathon"
             },
 
             {
@@ -79,15 +89,15 @@ export default [
                 langs:["HTML5","CSS3","JS","ReactJS"],
                 codelink:"https://github.com/ManasVerma42/Portfolio"
             },
-            
-            {
-                id:6,
-                img:"amazon.png",
-                title:"Amazon Clone",
-                details:"A project replicating the major features of Amazon.",
-                hostlink:"https://amazon-clone-ten-alpha-97.vercel.app/",
-                langs:["HTML5","CSS3","JS"],
-                codelink:"https://github.com/ManasVerma42/Amazon-Clone"
-            },
+
+            // {
+            //     id:4,
+            //     img:"Blood-Donation.png",
+            //     title:"Blood Donation Website",
+            //     details:"A website to help those who want to donate their blood and save lives.",
+            //     hostlink:"https://manasverma42.github.io/Blood-Donation-Drive-Website/",
+            //     langs: ["HTML5", "CSS3"],
+            //     codelink:"https://github.com/ManasVerma42/Blood-Donation-Drive-Website"
+            // },
 
         ]
